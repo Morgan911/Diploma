@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Button?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="letters.uicontrollers.PatternPageController">
+	<StackPane fx:id = "container"  GridPane.rowIndex = "0" minHeight = "400"></StackPane>
+	<Button  fx:id = "nextButton"  GridPane.rowIndex = "1">Next</Button>
+</GridPane>
+

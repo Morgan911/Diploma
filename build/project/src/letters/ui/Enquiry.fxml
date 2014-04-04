@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+
+<StackPane fx:id = "root" xmlns:fx="http://javafx.com/fxml" fx:controller="letters.uicontrollers.EnquiryController">
+	<VBox >
+		<HBox>
+			<CheckBox/>
+			<ComboBox >
+				<items>
+					<item>Dear</item>
+					<item>Dear Mr.</item>
+					<item>Dear Ms.</item>
+					<item>Dear Mrs.</item>
+				</items>
+			</ComboBox>
+			<TextField></TextField>
+			<Label>(British English)</Label>
+		</HBox>
+			
+		<HBox >
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<TextField ></TextField>
+			<Label></Label>
+		</HBox>
+		
+		<HBox >
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+		
+		<HBox >
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+	</VBox>
+	
+	<VBox >
+		<HBox>
+			<CheckBox></CheckBox>
+			<ComboBox></ComboBox>
+			<TextField></TextField>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<ComboBox ></ComboBox>
+			<ComboBox ></ComboBox>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<ComboBox ></ComboBox>
+			<ComboBox ></ComboBox>
+		</HBox>
+	</VBox>
+	
+	<VBox >
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<ComboBox ></ComboBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<TextField></TextField>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<TextField></TextField>
+		</HBox>
+	</VBox>
+	
+	<VBox >
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<TextField></TextField>
+			
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<TextField></TextField>
+			
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<ComboBox ></ComboBox>
+			<TextField></TextField>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<TextField></TextField>
+			<Label></Label>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<TextField></TextField>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<TextField></TextField>
+		</HBox>
+		
+	</VBox>
+	
+	<VBox >
+		<HBox>
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+			<ComboBox ></ComboBox>
+		</HBox>
+	</VBox>
+	
+	<VBox >
+		<HBox>
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+		
+		<HBox>
+			<CheckBox></CheckBox>
+			<ComboBox ></ComboBox>
+			<Label></Label>
+		</HBox>
+	</VBox>
+
+</StackPane>
+

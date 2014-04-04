@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Button?>
+
+<GridPane  xmlns:fx="http://javafx.com/fxml" fx:controller = "letters.uicontrollers.MainMenuController">
+	<ListView fx:id = "letterNameList" GridPane.rowIndex = "0"  minHeight="60" ></ListView>
+	<Button  fx:id = "createButton" GridPane.rowIndex = "1" onMouseClicked="#createLetterListener">Create</Button>
+</GridPane>
+
