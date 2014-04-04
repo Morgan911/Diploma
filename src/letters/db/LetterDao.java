@@ -13,7 +13,7 @@ import letters.model.Letter;
 public class LetterDao {
 
 	private static LetterDao instance;
-	private static final String GETLETTERSNAMES = "SELECT `Name` FROM `Letters`;"; 
+	private static final String GETLETTERSNAMES = "SELECT `Name` FROM `letters`;"; 
 	private static final String GETIDBYNAME = "SELECT l.id FROM `Letters` l WHERE l.name = ?;"; 
 	
 	private LetterDao(){

@@ -54,30 +54,10 @@ public class DBWorker {
 		return instance;
 	}
 	
-	/*private static final String CREATEKEYDATABASE = "CREATE TABLE IF NOT EXISTS `keys` (`key_id` int(11) NOT NULL AUTO_INCREMENT,"
-			+ "`key_name` varchar(100) NOT NULL, `key_folder_id` int(11) NOT NULL,"
-			+ "PRIMARY KEY (`key_id`),"
-			+ "CONSTRAINT `key_folder_id` FOREIGN KEY (`key_folder_id`) "
-			+ "REFERENCES `folders` (`folder_id`) ON DELETE CASCADE ON UPDATE CASCADE)"
-			+ " ENGINE=InnoDB AUTO_INCREMENT=137 DEFAULT CHARSET=cp1250";
-
-	private static final String CREATEMESSAGEDATABASE = "CREATE TABLE IF NOT EXISTS `messages` (`message_id` int(11) NOT NULL AUTO_INCREMENT,"
-			+ "`message_title` varchar(100) NOT NULL,"
-			+ "`message_text` longtext NOT NULL,"
-			+ "`message_folder_id` int(11) NOT NULL,"
-			+ "PRIMARY KEY (`message_id`),"
-			+ "CONSTRAINT `message_folder_id` FOREIGN KEY (`message_folder_id`) REFERENCES `folders` (`folder_id`) ON DELETE CASCADE ON UPDATE CASCADE)"
-			+ " ENGINE=InnoDB AUTO_INCREMENT=75 DEFAULT CHARSET=cp1250";
-
-	private static final String CREATEFOLDERDATABASE = "CREATE TABLE IF NOT EXISTS   `folders` (`folder_id` int(11) NOT NULL AUTO_INCREMENT, "
-			+ "`folder_name` varchar(100) NOT NULL,"
-			+ " PRIMARY KEY (`folder_id`))"
-			+ " ENGINE=InnoDB AUTO_INCREMENT=53 DEFAULT CHARSET=cp1250";*/
-
 	public Connection openConnection() {
 		try {
 			Class.forName(driver).newInstance();
-			connection = DriverManager.getConnection(url + db, user, password);
+			connection = DriverManager.getConnection(url + db);//, user, password);
 			try {
 				createTables();
 			} catch (SQLException e) {
@@ -99,15 +79,6 @@ public class DBWorker {
 
 
 	private void createTables() throws SQLException {
-		/*PreparedStatement sttm1 = connection
-				.prepareStatement(CREATEFOLDERDATABASE);
-		PreparedStatement sttm2 = connection
-				.prepareStatement(CREATEMESSAGEDATABASE);
-		PreparedStatement sttm = connection.prepareStatement(CREATEKEYDATABASE);
 
-		sttm1.executeUpdate();
-		sttm2.executeUpdate();
-		sttm.executeUpdate();
-	*/
 	}
 }
